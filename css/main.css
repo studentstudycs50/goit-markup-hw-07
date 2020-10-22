@@ -1,20 +1,4 @@
 @charset "UTF-8";
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-text-color: #2196f3;
-  --hero-text-color: #ffffff;
-  --footer-text-color: rgba(255, 255, 255, 0.6);
-  --primary-bg-color: #ffffff;
-  --second-bg-color: #2f303a;
-  --third-bg-color: rgba(255, 255, 255, 1);
-  --forth-bg-color: #f5f4fa;
-  --line: #ececec;
-  --links: rgba(175, 177, 184, 1);
-  --bgc-links-footer: #44454e;
-  --bgc-icons-benefits: rgba(245, 244, 250, 1);
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -897,7 +881,7 @@ ul {
   border: 0px;
   font-family: inherit;
   font-weight: 500;
-  color: var(--title-text-color);
+  color: #2196f3;
   font-size: 16px;
   line-height: 1.6;
   text-decoration: none;
@@ -910,14 +894,14 @@ ul {
 
 .button .but:hover,
 .button .but:focus {
-  color: var(--hero-text-color);
-  background-color: var(--accent-text-color);
+  color: #ffffff;
+  background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button.primary {
-  color: var(--hero-text-color);
-  background-color: var(--accent-text-color);
+  color: #ffffff;
+  background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
