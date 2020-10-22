@@ -67,10 +67,10 @@
 .links-main {
   display: flex;
   align-items: center;
-}
 
-.links-main .item + .item {
-  padding-left: 50px;
+  .item + .item {
+    padding-left: 50px;
+  }
 }
 /* задаем размеры иконок*/
 

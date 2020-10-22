@@ -1,8 +1,9 @@
 .what-we-do-ul {
   display: flex;
-}
-.what-we-do-ul .what-we-do-li + .what-we-do-li {
-  padding-left: 30px;
+
+  .what-we-do-li + .what-we-do-li {
+    padding-left: 30px;
+  }
 }
 
 .about-work-section {
