@@ -22,8 +22,8 @@ img {
 }
 
 body {
-  color: var(--primary-text-color);
-  background-color: var(--third-bg-color);
+  color: #757575;
+  background-color: white;
   font-family: Roboto, sans-serif;
 }
 
@@ -264,7 +264,7 @@ ul {
   width: 30px;
   height: 30px;
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -494,6 +494,7 @@ ul {
 .text {
   width: 270px;
   height: 75px;
+  color: #757575;
 }
 
 .bgc-benef {
@@ -526,7 +527,7 @@ ul {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  color: var(--hero-text-color);
+  color: #ffffff;
   position: absolute;
   left: 0;
   width: 100%;
@@ -548,7 +549,7 @@ ul {
 }
 
 .bgc-our-team {
-  background-color: var(--forth-bg-color);
+  background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -562,7 +563,7 @@ ul {
 }
 
 .team {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -571,11 +572,11 @@ ul {
 }
 
 .team-padding {
-  border-left: 1px solid var(--line);
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   border-radius: 4px;
-  background-color: var(--third-bg-color);
+  background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
   box-sizing: border-box;
@@ -920,9 +921,7 @@ ul {
 }
 
 .border-for-header {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: var(--line);
+  border-bottom-width: 1px solid #ececec;
 }
 
 .features-portfolio .titles-function-port {
@@ -930,7 +929,7 @@ ul {
   font-weight: 700;
   line-height: 2;
   text-transform: inherit;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .text-elem {
@@ -939,15 +938,15 @@ ul {
 }
 
 .titles-function-port {
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .border-for-cards {
   display: inline-block;
-  border: 1px solid var(--line);
+  border: 1px solid #ececec;
   width: 370px;
   height: 404px;
-  background-color: var(--primary-bg-color);
+  background-color: #ffffff;
   overflow: hidden;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -967,7 +966,7 @@ ul {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--hero-text-color);
+  color: #ffffff;
 }
 
 .features-li:hover .text-cards-overlay {
