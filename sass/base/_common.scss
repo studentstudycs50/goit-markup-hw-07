@@ -21,8 +21,8 @@ img {
 }
 
 body {
-  color: var(--primary-text-color);
-  background-color: var(--third-bg-color);
+  color: $primary-text-color;
+  background-color: $third-bg-color;
   font-family: Roboto, sans-serif;
 }
 ul {
