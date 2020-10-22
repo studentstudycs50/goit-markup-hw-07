@@ -5,7 +5,7 @@
 }
 
 .footer {
-  background-color: var(--second-bg-color);
+  background-color: $second-bg-color;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -16,13 +16,13 @@
   display: flex;
 
   &-addr {
-    color: var(--hero-text-color);
+    color: $hero-text-color;
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
   }
   &-link {
-    color: var(--footer-text-color);
+    color: $footer-text-color;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -43,7 +43,7 @@
 /*=====Footer-social-links=====*/
 
 .join-us-footer {
-  color: var(--hero-text-color);
+  color: $hero-text-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -76,29 +76,29 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--bgc-links-footer);
+  background-color: $bgc-links-footer;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover svg {
-    fill: var(--hero-text-color);
+    fill: $hero-text-color;
   }
 }
 .social-footer-link-instagram {
-  fill: var(--hero-text-color);
+  fill: $hero-text-color;
 }
 .social-footer-link-twitter {
-  fill: var(--hero-text-color);
+  fill: $hero-text-color;
 }
 .social-footer-link-facebook {
-  fill: var(--hero-text-color);
+  fill: $hero-text-color;
 }
 .social-footer-link-linkedin2 {
-  fill: var(--hero-text-color);
+  fill: $hero-text-color;
 }
 
 .social-list-item-footer-links:hover,
 .social-list-item-footer-links:focus {
-  fill: var(--primary-bg-color);
-  background-color: var(--accent-text-color);
+  fill: $primary-bg-color;
+  background-color: $accent-text-color;
 }
 
 .two-colons-footer {
@@ -108,7 +108,7 @@
 
 /*   FORM    */
 .join-us-footer-email {
-  color: var(--hero-text-color);
+  color: $hero-text-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -129,16 +129,16 @@
   min-height: 50px;
   margin: auto;
   background-color: transparent;
-  border: 1px solid var(--bgc-links-footer);
+  border: 1px solid $bgc-links-footer;
   border-radius: 4px;
   align-items: flex-start;
 
   padding-left: 16px;
   margin-right: 12px;
-  color: var(--hero-text-color);
+  color: $hero-text-color;
 }
 .button-form-foot {
-  background-color: var(--accent-text-color);
+  background-color: $accent-text-color;
 
   width: 200px;
   min-height: 50px;
@@ -152,7 +152,7 @@
   text-align: center;
   font-family: inherit;
   font-weight: 700;
-  color: var(--hero-text-color);
+  color: $hero-text-color;
 
   font-size: 16px;
   line-height: 1.42;
@@ -167,7 +167,7 @@
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  fill: var(--hero-text-color);
+  fill: $hero-text-color;
 }
 .join-us-footer-email {
   display: flex;

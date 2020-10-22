@@ -1,5 +1,5 @@
 .color-white {
-  color: var(--hero-text-color);
+  color: $hero-text-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -11,8 +11,8 @@
 
 /*button studio*/
 .button-studio {
-  color: var(--hero-text-color);
-  background-color: var(--accent-text-color);
+  color: $hero-text-color;
+  background-color: $accent-text-color;
   font-weight: 700;
 
   font-size: 16px;
@@ -47,7 +47,7 @@
   width: 528px;
   height: 581px;
   border-radius: 4px;
-  background-color: var(--primary-bg-color);
+  background-color: $primary-bg-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(197, 121, 121, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   padding: 40px;
@@ -70,11 +70,11 @@
   height: 11px;
   top: 3px;
   left: 4px;
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 
 .close-modal:hover .icon-for-button-studio {
-  fill: var(--accent-text-color);
+  fill: $accent-text-color;
 }
 
 .is-hidden {
@@ -90,7 +90,7 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
   /* position: absolute;*/
   width: 100%;
   margin-bottom: 30px;
@@ -116,17 +116,16 @@
     display: block;
   }
   &-input-label:hover .modal-form-icon {
-    fill: var(--accent-text-color);
+    fill: $accent-text-color;
   }
   &-input-label:focus .modal-form-icon {
-    fill: var(--accent-text-color);
+    fill: $accent-text-color;
   }
   &-icon {
     position: absolute;
     top: 20px;
     left: 12px;
     transform: translateY(100%);
-    /*fill: var(--title-text-color);*/
   }
 
   &-input {
@@ -141,14 +140,14 @@
 
   &-input:hover,
   &-input:focus {
-    border-color: var(--accent-text-color);
+    border-color: $accent-text-color;
     outline: none;
   }
   &-input:focus + &-icon {
-    fill: var(--accent-text-color);
+    fill: $accent-text-color;
   }
   &-input:focus ~ &-icon svg {
-    fill: var(--accent-text-color);
+    fill: $accent-text-color;
   }
   &-message:focus {
     outline: none;
@@ -168,14 +167,14 @@
     content: "";
     width: 16px;
     height: 15px;
-    border: 1px solid var(--accent-text-color);
+    border: 1px solid $accent-text-color;
   }
   &-label-check::before {
     content: "";
     display: block;
     width: 16px;
     height: 15px;
-    border: 1px solid #000;
+    border: 1px solid $border-color;
   }
   &-check:checked + &-label-check::before {
     background-image: url("../img/svg/icon-check.png");
@@ -195,17 +194,17 @@
   display: block;
 }
 .button-modal-form {
-  color: var(--hero-text-color);
+  color: $hero-text-color;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
 
   width: 200px;
   height: 50px;
-  border: 1px solid var(--accent-text-color);
+  border: 1px solid $accent-text-color;
   border-radius: 4px;
 
-  background: var(--accent-text-color);
+  background: $accent-text-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   align-items: center;
@@ -216,8 +215,8 @@
 }
 
 .modal-form-icon-gal:focus {
-  fill: var(--hero-text-color);
-  background-color: (var(--accent-text-color));
+  fill: $hero-text-color;
+  background-color: $accent-text-color;
 }
 .visually-hidden {
   visibility: hidden;

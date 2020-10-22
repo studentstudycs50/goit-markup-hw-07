@@ -5,17 +5,17 @@
   box-sizing: border-box;
   height: 120px;
   width: 270px;
-  background-color: var(--bgc-icons-benefits);
-  border: 1px solid var(--bgc-icons-benefits);
+  background-color: $bgc-icons-benefits;
+  border: 1px solid $bgc-icons-benefits;
   border-radius: 4px;
   margin-bottom: 30px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    border: 2px solid var(--accent-text-color);
+    border: 2px solid $accent-text-color;
   }
   &:hover svg {
-    fill: var(--accent-text-color);
+    fill: $accent-text-color;
   }
 }
 
@@ -33,7 +33,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .benefits .work-features-title + .work-features-title {
@@ -53,7 +53,7 @@
   height: 75px;
 }
 .bgc-benef {
-  background-color: var(--third-bg-color);
+  background-color: $third-bg-color;
 }
 .our-work-features {
   display: flex;

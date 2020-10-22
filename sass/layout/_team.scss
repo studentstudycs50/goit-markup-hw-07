@@ -1,5 +1,5 @@
 .bgc-our-team {
-  background-color: var(--forth-bg-color);
+  background-color: $forth-bg-color;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -12,7 +12,7 @@
 }
 
 .team {
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -20,11 +20,11 @@
   margin-bottom: 10px;
 
   &-padding {
-    border-left: 1px solid var(--line);
-    border-right: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
+    border-left: 1px solid $line;
+    border-right: 1px solid $line;
+    border-bottom: 1px solid $line;
     border-radius: 4px;
-    background-color: var(--third-bg-color);
+    background-color: $third-bg-color;
     padding-top: 30px;
     padding-bottom: 30px;
     box-sizing: border-box;

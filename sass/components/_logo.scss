@@ -7,7 +7,7 @@
   text-decoration: none;
 
   & .accent-logo {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -15,7 +15,7 @@
     text-decoration: none;
   }
   & .logo {
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -25,7 +25,7 @@
 }
 /*настройка слова Studio в футере */
 .logotip {
-  color: var(--hero-text-color);
+  color: $hero-text-color;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;

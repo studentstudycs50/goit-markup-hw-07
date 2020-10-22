@@ -5,7 +5,7 @@
 }
 .site-nav .link {
   display: block;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -18,17 +18,17 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-text-color);
+  color: $accent-text-color;
 }
 .site-nav .link.current {
-  color: var(--accent-text-color);
+  color: $accent-text-color;
 }
 .site-nav .link.current::after {
   display: block;
   content: "";
   height: 4px;
   width: 100%;
-  background-color: var(--accent-text-color);
+  background-color: $accent-text-color;
   margin: 0 auto;
   margin-top: 28px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -38,7 +38,7 @@
   margin-left: auto;
 
   & .link {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -49,10 +49,10 @@
   }
   & .link:hover,
   & .link:focus {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
   }
   &.link.current {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
   }
 }
 .site-nav {
@@ -78,7 +78,7 @@
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -86,19 +86,19 @@
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* задаем цвет при ховере*/
 
 .link:hover .icon-for-header-svg-m {
-  fill: var(--accent-text-color);
+  fill: $accent-text-color;
 }
 .link:hover .icon-for-header-svg-t {
-  fill: var(--accent-text-color);
+  fill: $accent-text-color;
 }
 .heading {
-  background-color: var(--second-bg-color);
+  background-color: $second-bg-color;
   box-sizing: border-box;
   height: 600px;
   padding-top: 200px;
@@ -111,8 +111,8 @@
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--second-bg-color);
-  outline: 1px solid var(--title-text-color);
+  background-color: $second-bg-color;
+  outline: 1px solid $title-text-color;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
