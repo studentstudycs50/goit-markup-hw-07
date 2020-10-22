@@ -1,0 +1,127 @@
+.main-div {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.site-nav .link {
+  display: block;
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  padding-top: 32px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*padding-bottom: 32px; пришлось удалить */
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current::after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: var(--accent-text-color);
+  margin: 0 auto;
+  margin-top: 28px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation .link {
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  font-style: normal;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--accent-text-color);
+}
+.navigation .link.current {
+  color: var(--accent-text-color);
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.links-main {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  margin-left: auto;
+}
+
+.links-main .item + .item {
+  padding-left: 50px;
+}
+/* задаем размеры иконок*/
+
+.icon-for-header-svg-m {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-for-header-svg-t {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* задаем цвет при ховере*/
+
+.link:hover .icon-for-header-svg-m {
+  fill: var(--accent-text-color);
+}
+.link:hover .icon-for-header-svg-t {
+  fill: var(--accent-text-color);
+}
+
+/* ====================END TOP LINE===================*/
+
+/* */
+.heading {
+  background-color: var(--second-bg-color);
+  box-sizing: border-box;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+.overlay-head {
+  flex-grow: 1;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--second-bg-color);
+  outline: 1px solid var(--title-text-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/fon/imj-for-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
